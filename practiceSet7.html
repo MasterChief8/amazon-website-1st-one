@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set 7</title>
+    <style>
+        div {
+
+            width: 200px;
+            height: 100px;
+
+            margin-bottom: 3px;
+        }
+
+
+        @media(max-width:300px) {
+
+            .a {
+                background-color: green;
+            }
+        }
+
+        @media(min-width:300px) and (max-width:400px) {
+
+            .a {
+                background-color: rgb(217, 67, 92);
+            }
+        }
+
+
+        @media (min-width:400px) and (max-width: 600px) {
+
+            .a {
+                background-color: red;
+            }
+        }
+
+        @media(min-width:600px) {
+
+            .a {
+
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+
+</html>
